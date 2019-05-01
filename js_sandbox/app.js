@@ -1,8 +1,8 @@
 // var, let, const
 
-var name = 'John Doe';
+//var name = 'John Doe';
 
-console.log(name);
+//console.log(name);
 
 // init var
 var greeting;
@@ -66,6 +66,14 @@ val = 5;
 console.log(val);
 console.log(typeof val);
 console.log(val.length);
+
+//setting local storage item
+localStorage.setItem('name', 'kynt');
+
+//settings session storage
+sessionStorage.setItem('age', 27);
+
+//remember, local/session storage only stores strings. so use json.stringify when storing, and when parsing thru foreach, use json.parse to make it a json.
 
 
 
