@@ -1,0 +1,16 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: darkgrey;
+}
+
+.main-container {
+	background-color: white;
+	margin-top: 70px;
+	height: auto;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 20px;
+}

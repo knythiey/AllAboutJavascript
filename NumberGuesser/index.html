@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="X-UA-COMPATIBLE" content="IE=Edge">
+	<title>Number Guesser</title>
+	
+	<!-- Font awesome CDN-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	
+	<!--Skeleton CDN-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" />
+	
+	<!--Custom CSS-->
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container main-container">
+		<h1>Number Guesser</h1>
+		<div id="game">
+			<p>Guess a number between
+				<span class="min-num"></span>
+				and
+				<span class="max-num"></span>
+			</p>
+			<input type="number" id="guess-input" placeholder="Enter your guess . . .">
+			<input type="submit" value="Submit" id="guess-btn" class="button">
+			<p class="message"></p>
+		</div>
+	</div>
+
+<!--custom javascript-->
+<script src="app.js"></script>
+
+</body>
+</html>
