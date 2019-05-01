@@ -3,10 +3,11 @@
 }
 
 body {
-	background-color: chartreuse;
+	background-color: darkslategrey;
 }
 
 .main-container {
+	background-color: white;
 	margin-top: 70px;
 	height: auto;
 }
