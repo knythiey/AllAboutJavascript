@@ -1,9 +1,10 @@
 .idea
 /ajax_json
 /ajax_xhr
+/ArrowFunctions
+/ASYNC&AWAIT
 /ES6Promises
 /FetchAPI
 /EZHTTP
 /EZHTTP2-ES6
 /EZHTTP3-ASYNC+AWAIT
-/ASYNC&AWAIT
